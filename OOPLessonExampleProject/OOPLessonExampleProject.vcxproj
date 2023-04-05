@@ -131,6 +131,7 @@
     <ClCompile Include="students.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="group.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="manager.h" />
     <ClInclude Include="student.h" />
