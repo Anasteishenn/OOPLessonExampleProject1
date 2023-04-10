@@ -1,12 +1,12 @@
 #pragma once
 #include "main.h"
 #include "student.h"
-#define DEFAUKT_SIZE 10
+#define DEFAULT_SIZE 10
 
 class Group {
 private:
 
-	Student list[DEFAUKT_SIZE];
+	Student list[DEFAULT_SIZE];
 	int size;
 	string name;
 
@@ -16,10 +16,14 @@ public:
 	Group(string n);
 	~Group();
 
-	void add(Student student);
+	string get_name();
+	string set_name(string n);
+
+
+	bool add(Student student);
 	void remove(Student student);
 	void remove(int index);
 	Student get(int index);
-	int size();
+	int get_size();
 	string conver_to_string();
 };
