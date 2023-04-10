@@ -63,7 +63,15 @@ string Student::get_name() {
 		avg_mark = mark;
 	}
 
-	~Student() {
+	Student::Student(Student& student) {
+		name = student.name;
+		surname = student.surname;
+		age = student.age;
+		avg_mark = student.avg_mark;
+	}
+
+
+	Student::~Student() {
 		//cout << "called Student destructor" << endl;
 	}
 

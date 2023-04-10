@@ -26,6 +26,8 @@ public:
 	float get_avg_mark();
 	void set_avg_mark(float mark);
 
+	Student(Student& student);
+
 	Student(); 
 	Student(string n, string sname, int a, float mark);
 	Student(string n, string sname);
