@@ -10,11 +10,11 @@ private:
 
 public:
 
-	const int MIN_AGE = 0;
-	const int MAX_AGE = 160;
+	static const int MIN_AGE = 0;
+	static const int MAX_AGE = 160;
 
-	const int MIN_MARK = 0;
-	const int MAX_MARK = 10;
+	static const int MIN_MARK = 0;
+	static const int MAX_MARK = 10;
 
 
 	string get_name() ;
